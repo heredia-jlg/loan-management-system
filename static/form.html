@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Approval System</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div style="margin-left: 30%; margin-right: 30%; margin-bottom: 50px; margin-top: 50px;">    
+    <script src="/static/js/form.js"></script>
+    <div id="navigation"></div>
+
+  <div id="formContent" style="margin-bottom: 30px">
+
+
+    <div id="formContentChild">
+        <h1 style="margin-bottom: 30px">We need some info to process your loan</h1>
+          <select id="inputType" class="form-control" onchange="updateLoanForm(this)">
+            <option selected>Type of loan/Show loans</option>
+            <option value="Student">Student</option>
+            <option value="Mortgage">Mortgage</option>
+            <option value="Personal">Personal</option>
+            <option value="Show">Show loans</option>
+          </select>
+        <div id="loanInfo">
+        </div>
+    </div>
+
+
+
+
+  </div>
+    
+
+</div>
+
+
+
+</body>
+</html>
